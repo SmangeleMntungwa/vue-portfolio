@@ -1,30 +1,64 @@
+
+
+
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <Navbar />
+  <router-view></router-view>
+  <Footer />
 </template>
+
+<script>
+import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
+// import HomeView from 
+export default {
+components: {
+    Navbar,
+    Footer
+    }
+}
+
+</script>
+
+
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "poppins", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #8686e0;
+  overflow-x: hidden;
 }
-
-nav {
-  padding: 30px;
+li {
+  list-style: none;
+  color: rgb(14, 13, 13);
 }
-
-nav a {
+.section-title {
+  text-align: center;
+  margin-top: 100px;
+}
+h2 {
+  color: rgb(14, 13, 13);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
-  color: #2c3e50;
+  position: relative;
 }
-
-nav a.router-link-exact-active {
-  color: #42b983;
+h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: #a454bc7a;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+}
+p {
+  color: black;
 }
 </style>
