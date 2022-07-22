@@ -22,8 +22,9 @@
 
       <div class="row" style="margin-bottom: 175px;">
         <div class="col-lg-4">
-          <img src="https://i.postimg.cc/3rztJqzT/matric.jpg" class="img-fluid" alt="">
-        </div>
+          <img src="https://i.postimg.cc/rp9jNH73/Smangele.webp" class="img-fluid" alt="">
+           </div>
+
         <div class="col-lg-8 pt-4 pt-lg-0 content">
           <h3>Software Developer</h3>
           <p class="description" style="text-align: justify;">
@@ -150,6 +151,7 @@
 </section>
 <Testimonials/>
 <ResumePage />
+<Experience/>
 <ProjectPage />
 <ContactPage />
 </template>
@@ -160,14 +162,17 @@ import ResumePage from "./Resume.vue"
 import ProjectPage from "./Mywork.vue"
 import ContactPage from "./Contactform.vue"
 import Testimonials from "./Testimonials.vue"
+import Experience from "./Experience.vue"
 
 export default {
   components: {
     LandingPage,
     ResumePage,
+    Experience,
     ProjectPage,
     ContactPage,
-    Testimonials
+    Testimonials,
+    
   },
 
   }
@@ -183,8 +188,13 @@ export default {
 .img-fluid {
   flex-direction: column;
   float: inline-start;
-  height: 475px;
-  max-width: 100%;
+  height: 500px;
+  max-width: 500px;
+  vertical-align: middle;
+  image-resolution: stretch;
+  image-rendering: auto;
+  
+ 
 }
 /* skills*/
 .progress-bar {

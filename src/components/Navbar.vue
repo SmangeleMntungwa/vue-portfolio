@@ -35,6 +35,11 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a href="#experience" class="nav-link active">
+                    Experience
+                </a>
+            </li>
+            <li class="nav-item">
                 <a href="#projects" class="nav-link active">
                     Projects
                 </a>

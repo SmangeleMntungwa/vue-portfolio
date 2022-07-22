@@ -17,7 +17,7 @@ export default createStore({
       {
         id:2,
         img:"https://i.postimg.cc/tJrLyqph/temp-scale.jpg" ,
-        name:"Temperature Converter",
+        name:"Temp Converter",
         title:"I used Javascript, CSS and HTML to create this Temperature Converter",
         github:"https://github.com/SmangeleMntungwa/Convert_Calculator",
         netlify:"https://gleeful-wisp-a092ae.netlify.app/"
@@ -41,6 +41,28 @@ export default createStore({
         github:"https://github.com/SmangeleMntungwa/Homes",
         netlify:"https://relaxed-crumble-19622c.netlify.app/"
       },
+
+      {
+        id: 5,
+        img: "https://i.postimg.cc/xjL3hRgm/to-do.jpg",
+        name:"To-Do-List",
+        title:"I created this To-Do-List Application using HTML, CSS, Javascript",
+        github:"https://github.com/SmangeleMntungwa/to-do",
+        netlify:" https://lambent-hummingbird-dac225.netlify.app/"
+
+       
+
+      },
+
+      {
+        id: 6,
+        img: "https://i.postimg.cc/KYYTY7n0/newspaper.jpg",
+        name:"New Paper Article",
+        title:"I created this News paper article using HTML, CSS and Bootstrap",
+        github:"https://github.com/SmangeleMntungwa/News-pasper-article",
+        netlify:"https://app.netlify.com/sites/funny-dragon-ad449c" 
+
+      }
 
     ],
 
@@ -93,6 +115,7 @@ tesimonials: [
   imgURL: "https://i.postimg.cc/TwWgdpRx/Siyolise-1.jpg",
   
 }
+
 
 
 

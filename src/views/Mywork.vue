@@ -62,7 +62,7 @@ export default {
     align-items: center;
     flex-direction: column;
   min-height: 100vh;
-  margin: 0 auto 75px;
+  margin: auto;
   width: 85%;
 }
 .project {
