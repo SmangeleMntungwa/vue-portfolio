@@ -25,6 +25,11 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a href="#testimonies" class="nav-link active">
+                    Testimonials
+                </a>
+            </li>
+            <li class="nav-item">
                 <a href="#resume" class="nav-link active">
                     Resume
                 </a>

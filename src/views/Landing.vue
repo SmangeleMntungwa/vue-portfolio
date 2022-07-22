@@ -56,7 +56,7 @@ export default {};
       rgba(243, 247, 193, 0.294),
       rgba(44, 44, 44, 0.6)
     ),
-    url(""); 
+    url("https://i.postimg.cc/4N0SDdQX/images.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
 }

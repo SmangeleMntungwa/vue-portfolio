@@ -38,12 +38,20 @@
 <script>
 export default {
   name: 'HomeView',
+  data(){
+    return{
+      projects:[
+
+      ]
+      }
+    },
   computed: {
     getProjects() {
-      return this.$store.state.Projects
+      return this.$store.state.projects
     }
-  },
-}
+  }
+  }
+
 
 
 </script>

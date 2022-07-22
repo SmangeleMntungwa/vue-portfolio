@@ -29,8 +29,15 @@
           <p class="description" style="text-align: justify;">
             I love creativity and expression through art and I have a good eye for
             beautiful things. Not only that, but I love exploring new scenes and experiencing different vibes from
-            my day-to-day life. I would say I am an adventurous being, inquisitive in learning new things.
-            I am passionate about aesthetics.
+            my day-to-day life. I would say I am a hard-working individual that is adventurous and very inquisitive in learning new things.
+         I always strive to do my best in anything I put my mind to. 
+         I would like to think I'm a fast learner, always willing to
+        ensure what needs to be done, gets done efficiently and to the
+        best of my ability. I am compassionate and patient, caring as
+        well as enthusiastic. I am an eager learner and always willing
+        to receive constructive criticism when completing a task as I
+        believe this is how I allow myself to grow.
+
           </p>
           <div class="row">
             <div class="col-lg-6">
@@ -38,12 +45,12 @@
 
                 <li><i class="fa fa-phone"></i> <strong>Phone:</strong> 083 442 9431 </li>
                 <li><i class="fa fa-building"></i> <strong>City:</strong> Cape Town, SA</li>
-                <li><i class="fa fa-birthday-cake"></i> <strong>Birthday:</strong> 16 January 1998</li>
+                
               </ul>
             </div>
             <div class="col-lg-6">
               <ul>
-
+               <li><i class="fa fa-birthday-cake"></i> <strong>Birthday:</strong> 16 January 1998</li>
                 <li><i class="fa fa-envelope"></i><strong> Email:</strong>
                   <span id="email">mangie696@gmail.com</span>
                 </li>
@@ -51,11 +58,9 @@
             </div>
           </div>
           <p style="text-align: justify;">
-            I've always been fascinated by how these beautiful and trendy websites were created. I visit a lot of
-            fashion and vacation websites and blogs. At some point I wanted to do graphic designing, because I
-            believe in the art of innovation and creating. But then I found out about how I can acquire a technical
-            skill that can combat all my passions, learning different languages to code and create those websites I've
-            always been intrigued by.
+            My first love for coding came when I was curious and took part in a 2 day coding course over the holidays while I was still in high school, 
+         and I realised years after that, that I remembered every single coding thing I did back then. With all that said I BELIEVE like I was made for coding which made sense as to why  I've always been fascinated by how these beautiful and trendy websites were created. I visit a lot of
+            fashion and vacation websites and blogs.  
           </p>
         </div>
       </div>
@@ -141,42 +146,9 @@
     </div>
   </div>
       <!-- testimonials -->
-        <section id="testimonies" style="background:beige; padding-bottom:120px">
-        <div class="container">
-          <div class="row">
-            <h2>My Testimonials</h2>
-          </div>
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="height:400px; text-align:justify;">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-                aria-label="Slide 5"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-                aria-label="Slide 6"></button>
-            </div>
-            <div  class="carousel-inner" v-if="Testimonies">
-              <div class="carousel-item" :class="{active : isActive === index }" v-for="(testimonial, index) in Testimonies" :key="index">
-                <img :src="testimonial.image" class="d-block"
-                  style="border-radius: 50%; width: 150px; height: 150px; margin: 60px auto 30px; object-fit: cover;"
-                  alt="A picture of my work">
-                <div class="testimonial-content" style="color: black;">
-                  <h5>{{testimonial.name}}</h5>
-                  <p>{{testimonial.testimony}}</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
+        
 </section>
+<Testimonials/>
 <ResumePage />
 <ProjectPage />
 <ContactPage />
@@ -187,15 +159,19 @@ import LandingPage from "./Landing.vue"
 import ResumePage from "./Resume.vue"
 import ProjectPage from "./Mywork.vue"
 import ContactPage from "./Contactform.vue"
+import Testimonials from "./Testimonials.vue"
 
 export default {
   components: {
     LandingPage,
     ResumePage,
     ProjectPage,
-    ContactPage
+    ContactPage,
+    Testimonials
+  },
+
   }
-}
+
 </script>
 
 <style scoped>
